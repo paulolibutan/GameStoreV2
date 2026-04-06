@@ -76,13 +76,7 @@ app.MapPut("/games/{id}", (int id, UpdateGameDto updatedGame) =>
 // DELETE /games/{id}
 app.MapDelete("/games/{id}", (int id) =>
 {
-    var index = games.FindIndex(g => g.Id == id);
-    if (index == -1)
-    {
-        return Results.NotFound();
-    }
-
-    games.RemoveAt(index);
+    games.RemoveAll(g => g.Id == id);
     return Results.NoContent();
 });
 
