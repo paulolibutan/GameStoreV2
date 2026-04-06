@@ -9,21 +9,21 @@ Content-Type: application/json
 
 {
   "name": "Super Mario Bros Wonder",
-  "genre": "Platformer",
+  "genreId": "3",
   "price": 59.99,
   "releaseDate": "2023-10-20"
 }
 
 ###
-PUT http://localhost:5186/games/4
+PUT http://localhost:5186/games/1
 Content-Type: application/json
 
 {
   "name": "The Legend of Zelda: Tears of the Kingdom",
-  "genre": "Action-Adventure",
+  "genreId": "3",
   "price": 59.99,
   "releaseDate": "2023-05-12"
 }
 
 ###
-DELETE http://localhost:5186/games/4
+DELETE http://localhost:5186/games/1
