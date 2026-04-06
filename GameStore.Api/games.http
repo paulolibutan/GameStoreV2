@@ -13,3 +13,14 @@ Content-Type: application/json
   "price": 59.99,
   "releaseDate": "2023-10-20"
 }
+
+###
+PUT http://localhost:5186/games/4
+Content-Type: application/json
+
+{
+  "name": "The Legend of Zelda: Tears of the Kingdom",
+  "genre": "Action-Adventure",
+  "price": 59.99,
+  "releaseDate": "2023-05-12"
+}

@@ -1,7 +1,6 @@
 namespace GameStore.Api.Dtos;
 
-public record GameDto(
-    int Id,
+public record UpdateGameDto(
     string Name,
     string Genre,
     decimal Price,
