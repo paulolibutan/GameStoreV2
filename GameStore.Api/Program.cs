@@ -24,6 +24,7 @@ builder.Services.AddSqlServer<GameStoreContext>(connectionString, optionsAction:
                 new Genre { Name = "Sports" }
             );
         }
+        context.SaveChanges();
     });
 });
 
