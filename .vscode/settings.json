@@ -1,5 +1,5 @@
 {
   "cSpell.words": ["Dtos"],
-  "editor.defaultFormatter": "csharpier.csharpier-vscode",
+  "editor.defaultFormatter": "ms-dotnettools.csharp",
   "editor.formatOnSave": true
 }
